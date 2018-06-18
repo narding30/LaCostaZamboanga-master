@@ -1,0 +1,137 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Vinta</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to CoastaZamboanga</string>
+    <string name="slide_1_desc">Short Description</string>
+
+    <string name="slide_2_title">App Feature</string>
+    <string name="slide_2_desc">Short Description</string>
+
+    <string name="slide_3_title">App Feature</string>
+    <string name="slide_3_desc">Short Description</string>
+
+    <string name="slide_4_title">App Feature</string>
+    <string name="slide_4_desc">Short Description</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string-array name="rank">
+
+        <item> Select Rank </item>
+        <item> CDR </item>
+        <item> LCDR </item>
+        <item> LT </item>
+        <item> LTIG </item>
+        <item> ENS </item>
+        <item> AUX </item>
+
+    </string-array>
+
+    <string-array name="station">
+
+        <item> Select Station </item>
+        <item> Zamboanga </item>
+        <item> Jolo </item>
+        <item> Bongao </item>
+        <item> Cotabato </item>
+        <item> Pagadian </item>
+        <item> Ipil </item>
+        <item> Basilan </item>
+
+    </string-array>
+
+    <string-array name="substation">
+
+        <item>Ships</item>
+        <item>SOG</item>
+        <item>MEP</item>
+        <item>KA</item>
+        <item>Medical</item>
+
+    </string-array>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+
+
+    <!-- - - - - - - - - - - - - - - -->
+    <!-- Used by WeatherUtils-->
+    <!-- - - - - - - - - - - - - - - -->
+
+    <!-- Temperature format in Celsius [CHAR LIMIT=5] -->
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
+
+    <!-- Temperature format in Fahrenheit [CHAR LIMIT=5] -->
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0F
+    </string>
+
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="city_country">Enugu, Nigeria</string>
+    <string name="date_today">Friday, 8 July</string>
+    <string name="current_temperature">26</string>
+    <string name="weather_information">Partly Cloud</string>
+    <string name="temp_information">26, partly cloudy</string>
+    <string name="wind">WIND</string>
+    <string name="wind_speed">18 km/h</string>
+    <string name="humidity">HUMIDITY</string>
+    <string name="humidity_rate">73%</string>
+    <string name="day_of_week">Mon</string>
+    <string name="location_hints">Type city or postcode</string>
+    <string name="location_example">Example Malmo, Sweden</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="stored_location">You can only store 5 locations</string>
+    <string name="permission_notice">This permission is important but you can as well set your location on Location page</string>
+    <string name="go_to_location">Go to location setting</string>
+    <string name="title_activity_usermain">Usermain</string>
+    <string name="vehicle_plate_number">Vehicle Plate Number</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="scheduled_time">Scheduled Departure Time</string>
+    <string name="booking_type">Booking Type</string>
+    <string name="vessel_name">Vessel Name</string>
+    <string name="company_name">Company Name</string>
+    <string name="text_ham_button_text_normal">qqq</string>
+    <string name="text_ham_button_sub_text_normal">aaaa</string>
+    <string name="live">Live</string>
+    <string name="write_something">Write something.</string>
+    <string name="todo">TODO</string>
+    <string name="no_advisory_posted_yet">No Advisory posted yet.</string>
+    <string name="check_in">Check In</string>
+    <string name="photo">Photo</string>
+</resources>

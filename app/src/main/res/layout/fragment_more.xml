@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PCGPersonnel.Fragments.MoreFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/pic1"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Juana Dela Cruz"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="View your profile"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:layout_margin="15dp"
+            android:text="HELP &amp; SETTINGS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/btnSettings"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:text="Account Setings"
+            android:drawablePadding="20dp"
+            android:paddingLeft="15dp"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/setting" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/btnHelp"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:text="Help Center"
+            android:drawablePadding="20dp"
+            android:paddingLeft="15dp"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/help" />
+        <Button
+            android:id="@+id/btnReport"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:text="Report Problem"
+            android:drawablePadding="20dp"
+            android:paddingLeft="15dp"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/caution" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/btnAbout"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:text="About"
+            android:drawablePadding="20dp"
+            android:paddingLeft="15dp"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/info" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/btnlogout"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:text="Log Out"
+            android:drawablePadding="20dp"
+            android:paddingLeft="15dp"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/logout" />
+
+    </LinearLayout>
+</ScrollView>

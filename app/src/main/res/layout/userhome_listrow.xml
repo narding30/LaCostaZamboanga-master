@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewTL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewUserhome"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/logo_pcg"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:id="@+id/llholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imageViewUserhome"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/imageViewUserhome">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageViewUser"
+                android:text="Philippine Coast Guard"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionUser"
+                android:layout_toRightOf="@+id/imageViewUser"
+                android:text="Just now"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:paddingTop="50dp"
+            android:textColor="@color/black"
+            android:id="@+id/tv_message"
+            android:layout_alignParentEnd="@id/llholder"
+            android:text="All voyages bound to Isabela, Basilan are Cancelled due to bad weather condition."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="@id/llholder"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

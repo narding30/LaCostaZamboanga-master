@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6697A7</color>
+    <color name="colorPrimaryDark">#515689</color>
+    <color name="colorAccent">#8CCDC2</color>
+    <color name="colorLigthPrimary">#EF5350</color>
+
+    <color name="my_spinner_text_color">#FFF</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlackStroke">#424242</color>
+    <color name="transparent">#00ff4081</color>
+    <color name="colorYellow">#f4e400</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#313131</color>
+    <color name="bg_screen2">#880E4F</color>
+    <color name="bg_screen3">#311B92</color>
+    <color name="bg_screen4">#33691E</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#123abc</color>
+    <color name="gray">#D3D3D3</color>
+
+    <string name="delete_text">X</string>
+    <color name="colorBackground">#eaaf02</color>
+    <color name="colorBottomBackground">#729101</color>
+    <color name="colorCircleStroke">#df9502</color>
+    <color name="colorSubTitle">#38455B</color>
+    <color name="control_background">#cc4285f4</color>
+
+</resources>

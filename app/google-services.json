@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "900023843919",
+    "firebase_url": "https://lacostazamboanga.firebaseio.com",
+    "project_id": "lacostazamboanga",
+    "storage_bucket": "lacostazamboanga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900023843919:android:0a9a33ce198dc010",
+        "android_client_info": {
+          "package_name": "com.rakantao.pcg.lacostazamboanga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900023843919-nc1ho50u33phtu2leoe4rj6uvc9efe3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rakantao.pcg.lacostazamboanga",
+            "certificate_hash": "4873e62c2f908a0a04400ec2326ddb4b3a278a5a"
+          }
+        },
+        {
+          "client_id": "900023843919-vjkh5ksl1op2098fsm30p18lkjubir0s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "900023843919-vjkh5ksl1op2098fsm30p18lkjubir0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD92-YtclVMghqVXRn8pwusJMKT1hnmuG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900023843919-vjkh5ksl1op2098fsm30p18lkjubir0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

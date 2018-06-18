@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="350sp"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:text="Add Schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            float:fletTextAppearance="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="@color/white"
+                android:id="@+id/ETDay"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Day" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            float:fletTextAppearance="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="5dp">
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/ETOrigin"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:focusable="false"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Origin" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            float:fletTextAppearance="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="5dp">
+            <EditText
+                android:textColor="@color/white"
+                android:id="@+id/ETDestination"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Destination" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            float:fletTextAppearance="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="5dp">
+            <EditText
+                android:textColor="@color/white"
+                android:id="@+id/ETDepartTme"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ETD" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            float:fletTextAppearance="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="5dp">
+            <EditText
+                android:textColor="@color/white"
+                android:id="@+id/ETArrivalTime"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ETA" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+        <Button
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btnSaveSched"
+            fontPath="fonts/RobotoCondensed-Regular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_background_2"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+</ScrollView>

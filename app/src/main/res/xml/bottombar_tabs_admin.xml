@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/blogAdmin"
+        title=""
+        icon="@drawable/newspaper" />
+
+    <tab
+        id="@+id/weatherAdmin"
+        title=""
+        icon="@drawable/clouds" />
+
+    <tab
+        id="@+id/chatAdmin"
+        title=""
+        icon="@drawable/chat_icon" />
+
+    <tab
+        id="@+id/notifAdmin"
+        title=""
+        icon="@drawable/notification" />
+</tabs>

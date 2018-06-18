@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/newsuser"
+        title=""
+        icon="@drawable/newspaper" />
+
+    <tab id="@+id/weather"
+        title=""
+        icon="@drawable/clouds" />
+
+    <tab id="@+id/reportUser"
+        title=""
+        icon="@drawable/notification" />
+</tabs>
